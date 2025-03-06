@@ -6,6 +6,7 @@
 }
 
 body {
+    color: rgb(48 48 48);
 }
 
 header {
@@ -18,7 +19,7 @@ header span {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 20px;
-    color: #303030;
+    color: #ffffff;
     /* Стили для текста в хедере IT-INCUBATOR */
 }
 
@@ -26,6 +27,7 @@ header span {
     background: #fafaff;
     width: 1440px;
     height: 1024px;
+    padding: 60px 0;
     /* Стили для первой секции */
 }
 
@@ -34,7 +36,8 @@ header span {
     font-weight: 700;
     font-size: 48px;
     color: #303030;
-    margin-top: 20px;
+    margin-bottom: 20px;
+
     /* Стили для заголовка в первой секции */
 }
 
@@ -66,7 +69,7 @@ select {
     font-size: 16px;
     color: #303030;
     margin-top: 100px;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     /* Стили для выпадающего списка */
 }
 
