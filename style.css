@@ -5,11 +5,12 @@
     /* Свойства для сброса начальных стилей элементов */
 }
 
-body {}
+body {
+}
 
 header {
     background: #2965f1;
-  padding: 23px 0;
+    padding: 23px 0;
     /* Стили для хедера */
 }
 
@@ -47,6 +48,7 @@ header span {
 
 .main-image {
     background-color: #fafaff;
+    max-width: 715px;
     /* Стили для изображения в первой секции */
 }
 
@@ -54,6 +56,7 @@ header span {
 .about-section {
     width: 1440px;
     height: 883px;
+    padding: 100px 0;
     /* Стили для второй секции */
 }
 
@@ -63,6 +66,7 @@ select {
     font-size: 16px;
     color: #303030;
     margin-top: 100px;
+    background-repeat: no-repeat ;
     /* Стили для выпадающего списка */
 }
 
@@ -148,14 +152,16 @@ table {
 }
 
 td {
-    padding:12px 15px;
+    padding: 12px 15px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #303030;
     /* Стили для ячеек таблицы */
 }
-.title{
+
+.title {
+    padding: 12px 15px;
     font-family: "Inter", sans-serif;
     font-size: 14px;
     color: #303030;
